@@ -1,0 +1,174 @@
+body{
+    background-color: black;
+}
+.art1{
+  display: flex;  
+  align-items: center;
+
+
+  .izq .derecha1{
+    width: 50%;
+    
+
+  }
+  .title{
+      margin-left: 20px;
+      color: green ;
+      transition: 0.5s;
+      text-align: center;
+      box-shadow: 0 0 1px 2px green;
+  }
+  .info1{
+      color: white;
+      padding-left: 40px;
+      text-align: center;
+      align-items: center;
+  }
+  .title:hover{
+      color: rgb(255, 255, 255);
+  }
+}
+.video__razer{
+    .video1{
+        max-width: fit-content 100%;
+        .video__razer1{
+            max-width: 100%;
+        }
+    }
+    .title__razerv2{
+        box-shadow: 0px 2px green;
+        text-align: center;
+        padding-left: 50px;
+        padding-top: 20px;
+        color: green;
+        transition: 0.5s;
+    }
+    .title__razerv2:hover{
+        color: rgb(210, 210, 210);
+    }
+    .sub__video{
+        color: white;
+        text-align: center;
+        
+    }
+}
+
+.teclado__razer{
+    .img__bg{
+        background-image: url(../multimedia/keyboard.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px;
+        margin: 100px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        .title__over{
+            color: green;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: 0.5s;
+          
+        }
+        .title__over:hover{
+            color: white;
+        }
+        .contenido2{
+            color: white;
+            position: relative;
+            top: 280px;
+            
+        }
+    }
+
+}
+.audio__razer{
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+        
+        .div1 { 
+            grid-area: 1 / 1 / 2 / 2;
+
+            .title__izq{
+                color: green;
+                transition: 0.5s;
+                text-align: center;
+            }
+            .title__izq:hover{
+                color: white;
+                
+            }
+            
+            .sub__audio{
+                color: whitesmoke;
+                text-align: center;
+            }
+            .cont__izq{
+                color: white;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        .div2{ 
+            grid-area: 1 / 2 / 2 / 3;
+            .sub__audio{
+                color: whitesmoke;
+                text-align: center;
+            }
+            .title__der{
+                color: green;
+                transition: 0.5s;
+                text-align: center;
+            }
+            .title__der:hover{
+                color: white;
+            } 
+            .cont__der{
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+
+        }
+    } 
+    .izquierda{
+        width: 100%;
+    }
+    .derecha{
+        width: 100%;
+
+    }
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 12px;
+        grid-row-gap: 0px;
+        
+        .div1 {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .div2 {
+             grid-area: 1 / 2 / 2 / 3;
+        }
+    }
+
+
+        
+
+       
+}
+
+
+
+
+
+

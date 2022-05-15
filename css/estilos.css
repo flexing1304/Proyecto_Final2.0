@@ -1,0 +1,162 @@
+.header {
+  height: 100px;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 2px 5px green;
+  align-items: center;
+  background-color: black; }
+
+ul {
+  list-style: none; }
+
+.nav__enlace {
+  color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color .5s; }
+
+.nav__enlace:hover {
+  color: white; }
+
+.nav__lista {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Montserrats', sans-serif;
+  font-size: 20px; }
+
+.nav {
+  width: 100%; }
+
+.nav__item--oculto {
+  display: none; }
+
+body {
+  background-color: black; }
+
+.art1 {
+  display: flex;
+  align-items: center; }
+  .art1 .izq .derecha1 {
+    width: 50%; }
+  .art1 .title {
+    margin-left: 20px;
+    color: green;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 0 1px 2px green; }
+  .art1 .info1 {
+    color: white;
+    padding-left: 40px;
+    text-align: center;
+    align-items: center; }
+  .art1 .title:hover {
+    color: white; }
+
+.video__razer .video1 {
+  max-width: fit-content 100%; }
+  .video__razer .video1 .video__razer1 {
+    max-width: 100%; }
+
+.video__razer .title__razerv2 {
+  box-shadow: 0px 2px green;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: green;
+  transition: 0.5s; }
+
+.video__razer .title__razerv2:hover {
+  color: #d2d2d2; }
+
+.video__razer .sub__video {
+  color: white;
+  text-align: center; }
+
+.teclado__razer .img__bg {
+  background-image: url(../multimedia/keyboard.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  margin: 100px;
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .teclado__razer .img__bg .title__over {
+    color: green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.5s; }
+  .teclado__razer .img__bg .title__over:hover {
+    color: white; }
+  .teclado__razer .img__bg .contenido2 {
+    color: white;
+    position: relative;
+    top: 280px; }
+
+.audio__razer .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .audio__razer .parent .div1 {
+    grid-area: 1 / 1 / 2 / 2; }
+    .audio__razer .parent .div1 .title__izq {
+      color: green;
+      transition: 0.5s;
+      text-align: center; }
+    .audio__razer .parent .div1 .title__izq:hover {
+      color: white; }
+    .audio__razer .parent .div1 .sub__audio {
+      color: whitesmoke;
+      text-align: center; }
+    .audio__razer .parent .div1 .cont__izq {
+      color: white;
+      font-size: 20px;
+      text-align: center; }
+  .audio__razer .parent .div2 {
+    grid-area: 1 / 2 / 2 / 3; }
+    .audio__razer .parent .div2 .sub__audio {
+      color: whitesmoke;
+      text-align: center; }
+    .audio__razer .parent .div2 .title__der {
+      color: green;
+      transition: 0.5s;
+      text-align: center; }
+    .audio__razer .parent .div2 .title__der:hover {
+      color: white; }
+    .audio__razer .parent .div2 .cont__der {
+      color: white;
+      text-align: center;
+      font-size: 20px; }
+
+.audio__razer .izquierda {
+  width: 100%; }
+
+.audio__razer .derecha {
+  width: 100%; }
+
+.audio__razer .parent1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 12px;
+  grid-row-gap: 0px; }
+  .audio__razer .parent1 .div1 {
+    grid-area: 1 / 1 / 2 / 2; }
+  .audio__razer .parent1 .div2 {
+    grid-area: 1 / 2 / 2 / 3; }
+
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box; }
