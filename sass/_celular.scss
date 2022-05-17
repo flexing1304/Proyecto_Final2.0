@@ -1,0 +1,173 @@
+.cont__cel{
+    display: flex;
+    flex-direction: row;
+    .izq__kishi{
+        width: 50%;
+        .img__kishi{
+            width: 100%;
+        }
+    }
+    .img__anzu{
+        width: 100%
+    }
+    .img__auris{
+        @extend .img__anzu
+    }
+    .img__funda{
+        @extend .img__anzu;
+    }
+}
+.cont__cel__abajo{
+    @extend .cont__cel;
+    @extend .izq__kishi;
+    .padd_title{
+        padding-top: 52px;
+    }
+}
+
+.kishi__contenedor{
+    display: flex;
+    flex-direction: column;
+    .cont__kishi{
+        width: 100%;
+        .img__kishi{
+            width: 100%;
+        }
+    }
+    .contendor__kishi{
+        display: flex;
+        flex-direction: row;
+        .kishi__izq{
+            width: 50%;
+            .control__kishi{
+                width: 100%;
+                justify-content: center;
+            }
+
+        }
+        .kishi__der{
+            width: 50%;
+            .img__kishizq{
+                width: 100%;
+                justify-items: center;
+            }
+        }
+    }
+}
+.anzu__sect{
+    .anzu__cont{
+        
+        .logo__anzu{
+            position: relative;
+            left: 550px;
+            bottom: 250px;
+
+
+        }
+        .img__anzu{
+            width: 100%;
+        }
+       
+    }
+    .img__gafa{
+        width: 100%;
+    }
+    .img__anzugafa{
+        width: 100%;
+    }
+
+}
+.portada{
+
+    .portada__auiris{
+        width:100%;
+    }
+    .intento__auiris{
+        padding-top: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        .razer__chi{
+            font-size: 20px;
+            text-align:center;
+            color: green;
+            flex-direction: column;
+        }
+        .hamerhead{
+            color: white;
+            font-size: 40px;
+            display: flex;
+            .unidad{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+            .arriba{
+                color: white;
+                font-size: 20px;
+
+            }
+            .wireless{
+                color: white;
+                font-size: 20px;
+            }
+        }
+        }
+        
+    }
+}
+.auiris__razer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .img__auris1{
+        width: 50%;
+        
+        .foto__auris{
+            width: 100%;
+        }
+    }
+    .info__auris{
+        width: 50%;
+    }
+}
+.otra__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .info__auris2{
+        width: 50%;
+    }
+    .info__img{
+        width: 50%;
+        .img__auris3{
+            
+            width: 100%;
+        }
+    }
+}
+.fundas{
+    .funda__img{
+        width: 100%;
+    }
+    .funda__atras{
+        width: 100%;
+
+    }
+}
+.volver{
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+.volver:hover{
+    background-color: green;
+}
