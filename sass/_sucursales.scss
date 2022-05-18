@@ -1,11 +1,39 @@
-.horarios{
+.mapas{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    .iframe__izquierda{
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+
+    .izquierda__map{
+        display: flex;
+        flex-direction: column;
         width: 50%;
+        padding-left: 200px;
+        .info_hora{
+            display: flex;
+            justify-content: center;
+        }
+        .contacto__maps{
+            @extend .info_hora;
+            padding-top: 40px;
+            .material-symbols-outlined{
+               padding-right: 20px;
+            }
+            
+        }
+        .ubicacion__maps{
+            padding-top: 20px;
+            @extend .info_hora;
+
+        }
+        .material-symbols-outlined{
+            color: white;
+            font-size: 40px;
+        }
     }
-    .iframe__derecha{
-        width: 50%;
-    }
+}
+.sucursales__title{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

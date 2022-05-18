@@ -440,14 +440,33 @@ ul {
 .formulario .sex {
   color: white; }
 
-.horarios {
+.mapas {
   display: flex;
   flex-direction: row;
-  width: 100%; }
-  .horarios .iframe__izquierda {
-    width: 50%; }
-  .horarios .iframe__derecha {
-    width: 50%; }
+  padding-top: 3px;
+  justify-content: center;
+  align-items: center; }
+  .mapas .izquierda__map {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 200px; }
+    .mapas .izquierda__map .info_hora, .mapas .izquierda__map .contacto__maps, .mapas .izquierda__map .ubicacion__maps {
+      display: flex;
+      justify-content: center; }
+    .mapas .izquierda__map .contacto__maps {
+      padding-top: 40px; }
+      .mapas .izquierda__map .contacto__maps .material-symbols-outlined {
+        padding-right: 20px; }
+    .mapas .izquierda__map .ubicacion__maps {
+      padding-top: 20px; }
+    .mapas .izquierda__map .material-symbols-outlined {
+      color: white;
+      font-size: 40px; }
+
+.sucursales__title {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 * {
   padding: 0%;
