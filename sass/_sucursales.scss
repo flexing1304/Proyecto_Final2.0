@@ -1,6 +1,11 @@
 .horarios{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 50px;
+    width: 100%;
+    .iframe__izquierda{
+        width: 50%;
+    }
+    .iframe__derecha{
+        width: 50%;
+    }
 }

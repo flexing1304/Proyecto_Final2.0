@@ -443,8 +443,11 @@ ul {
 .horarios {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 50px; }
+  width: 100%; }
+  .horarios .iframe__izquierda {
+    width: 50%; }
+  .horarios .iframe__derecha {
+    width: 50%; }
 
 * {
   padding: 0%;
