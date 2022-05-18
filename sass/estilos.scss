@@ -3,11 +3,15 @@
 @import "_pc.scss";
 @import "_celular";
 @import "_iniciosesion.scss";
+@import "_sucursales.scss";
 *{
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
    
+}
+body{
+    background-color: black;
 }
 // uso de los each
 @each $title in (h1){
@@ -39,5 +43,15 @@
     }
     
 }
+//maps
+
+$contenido:(
+
+    h3: 10px color rgb(255, 255, 255),
+    
+);
+
+$h3:map-get($contenido , h3 );
+
 
 
