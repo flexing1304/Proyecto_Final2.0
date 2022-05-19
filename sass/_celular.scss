@@ -171,3 +171,36 @@
 .volver:hover{
     background-color: green;
 }
+
+@media screen and (max-width:600px){
+    .anzu__sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .logo__anzu{
+            display: none;
+        }
+        .logo__anzu__responsive{
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+
+    }
+.volver__arriba{
+    display: none;
+}
+.volver__arriba__responsive{
+    width: 100%;
+    background-color: red;
+    .volver{
+        background-color: red;
+        font-size: 40px;
+    }
+}
+.portada{
+.intento__auiris{
+    display: none;
+}
+}
+}
