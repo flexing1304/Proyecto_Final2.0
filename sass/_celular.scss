@@ -24,7 +24,9 @@
         padding-top: 52px;
     }
 }
-
+.nav__item--oculto{
+    display: none;
+}
 .kishi__contenedor{
     display: flex;
     flex-direction: column;
@@ -93,7 +95,14 @@
             color: green;
             flex-direction: column;
         }
+        }
+    }
+    .portada{
+        .no__resposive{
+            display: none;
+        }
         .hamerhead{
+           
             color: white;
             font-size: 40px;
             display: flex;
@@ -112,8 +121,6 @@
                 font-size: 20px;
             }
         }
-        }
-        
     }
 }
 .auiris__razer{
@@ -202,5 +209,8 @@
 .intento__auiris{
     display: none;
 }
+}
+.nav__item--oculto{
+    display: block;
 }
 }

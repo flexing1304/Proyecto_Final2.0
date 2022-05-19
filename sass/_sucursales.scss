@@ -37,3 +37,20 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+@media screen and (max-width:600px){
+    .mapas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .izquierda__map{
+            width: 100%;
+        }
+        .info_hora{
+            width: 100%;
+        }
+    }
+
+
+
+}

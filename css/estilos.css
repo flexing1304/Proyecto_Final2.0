@@ -1,5 +1,5 @@
 .header {
-  height: 100px;
+  height: 100%;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -118,29 +118,8 @@ body {
   color: white;
   text-align: center; }
 
-.teclado__razer .img__bg {
-  background-image: url(../multimedia/keyboard.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 200px;
-  margin: 100px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 100%; }
-  .teclado__razer .img__bg .title__over {
-    color: green;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    transition: 0.5s; }
-  .teclado__razer .img__bg .title__over:hover {
-    color: white; }
-  .teclado__razer .img__bg .contenido2 {
-    color: white;
-    position: relative;
-    top: 280px; }
+.teclado__razer2 .kb__arriba {
+  display: none; }
 
 .audio__razer .parent {
   display: grid;
@@ -299,23 +278,23 @@ body {
 
 .mouses .colores__mouse {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-items: center; }
 
 .mouses .mouse__negro {
-  grid-area: 1 / 1 / 2 / 2; }
+  grid-area: 1 / 1; }
 
 .mouses .mouse__blanco {
-  grid-area: 1 / 2 / 2 / 3; }
+  grid-area: 1 / 2; }
 
 .mouses .mouse__rosa {
-  grid-area: 1 / 3 / 2 / 4; }
+  grid-area: 1 / 3; }
 
 .mouses .mouse__amarillo {
-  grid-area: 1 / 4 / 2 / 5; }
+  grid-area: 1 / 4; }
 
 .volver {
   display: inline-block;
@@ -413,6 +392,9 @@ body {
 .cont__cel__abajo .padd_title {
   padding-top: 52px; }
 
+.nav__item--oculto {
+  display: none; }
+
 .kishi__contenedor {
   display: flex;
   flex-direction: column; }
@@ -461,20 +443,24 @@ body {
     text-align: center;
     color: green;
     flex-direction: column; }
-  .portada .intento__auiris .hamerhead {
-    color: white;
-    font-size: 40px;
-    display: flex; }
-    .portada .intento__auiris .hamerhead .unidad {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; }
-      .portada .intento__auiris .hamerhead .unidad .arriba {
-        color: white;
-        font-size: 20px; }
-      .portada .intento__auiris .hamerhead .unidad .wireless {
-        color: white;
-        font-size: 20px; }
+
+.portada .no__resposive {
+  display: none; }
+
+.portada .hamerhead {
+  color: white;
+  font-size: 40px;
+  display: flex; }
+  .portada .hamerhead .unidad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .portada .hamerhead .unidad .arriba {
+      color: white;
+      font-size: 20px; }
+    .portada .hamerhead .unidad .wireless {
+      color: white;
+      font-size: 20px; }
 
 .auiris__razer {
   display: flex;
@@ -540,7 +526,9 @@ body {
       background-color: red;
       font-size: 40px; }
   .portada .intento__auiris {
-    display: none; } }
+    display: none; }
+  .nav__item--oculto {
+    display: block; } }
 
 .formulario .form {
   display: flex;
@@ -616,6 +604,16 @@ body {
 .sucursales__title {
   padding-top: 30px;
   padding-bottom: 30px; }
+
+@media screen and (max-width: 600px) {
+  .mapas {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .mapas .izquierda__map {
+      width: 100%; }
+    .mapas .info_hora, .mapas .izquierda__map .contacto__maps, .mapas .izquierda__map .ubicacion__maps {
+      width: 100%; } }
 
 * {
   padding: 0%;

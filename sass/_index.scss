@@ -59,37 +59,12 @@ body{
     }
 }
 
-.teclado__razer{
-    .img__bg{
-        background-image: url(../multimedia/keyboard.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 200px;
-        margin: 100px;
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        width: 100%;
-        .title__over{
-            color: green;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            transition: 0.5s;
-          
-        }
-        .title__over:hover{
-            color: white;
-        }
-        .contenido2{
-            color: white;
-            position: relative;
-            top: 280px;
-            
-        }
-    }
 
+
+.teclado__razer2{
+    .kb__arriba{
+        display: none;
+    }
 }
 .audio__razer{
     .parent {
