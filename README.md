@@ -6,7 +6,7 @@ ReadMe para CoderHouse
 
 <h3 align="left">Encontrame en:</h3>
 <p align="left">
-<a href="https://fb.com/federico fuentealba" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="federico fuentealba" height="30" width="40" /></a>
+<a href="https://fb.com/federico fuentealba" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="fede fuentealba" height="30" width="40" /></a>
 <a href="https://instagram.com/fedefuentealba1304" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fedefuentealba1304" height="30" width="40" /></a>
 </p>
 
