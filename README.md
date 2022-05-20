@@ -2,7 +2,7 @@ ReadMe para CoderHouse
 
 <h1 align="center">Hola 👋, Soy Federico</h1>
 <h3 align="center">Estoy empezando en el mundo de la programacion</h3>
-<h3> aling="center">Este es mi repositorio para mi proyecto final en CoderHouse </h3>
+<h3 aling="center">Este es mi repositorio para mi proyecto final en CoderHouse </h3>
 
 <h3 align="left">Encontrame en:</h3>
 <p align="left">
