@@ -121,6 +121,9 @@ body {
 .teclado__razer2 .kb__arriba {
   display: none; }
 
+.contenido2 {
+  display: block; }
+
 .audio__razer .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -369,8 +372,10 @@ body {
       align-items: flex-start; }
     .header .header .nav__item__oculto {
       display: block; }
-  .mousepad__img {
+  .pad__img {
     width: 100%; }
+    .pad__img .mousepad__img {
+      width: 100%; }
   .mouses .colores__mouse {
     display: flex;
     flex-direction: row; }
@@ -634,7 +639,8 @@ h2 {
 h3 {
   color: white;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  font-size: 22px; }
 
 a {
   text-decoration: none;

@@ -188,9 +188,13 @@
     }
 }
 // fin sidebar
-.mousepad__img{
+.pad__img{
     width: 100%;
+    .mousepad__img{
+        width: 100%;
+    }
 }
+
 .mouses{
     .colores__mouse{
         display: flex;
