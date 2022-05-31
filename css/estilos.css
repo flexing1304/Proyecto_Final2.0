@@ -52,7 +52,7 @@ ul {
     .header #sidebar:target {
       transform: translateX(0); }
     .header #sidebar {
-      background-color: #acacac;
+      background-color: black;
       position: fixed;
       top: 0;
       left: 0;
@@ -118,11 +118,8 @@ body {
   color: white;
   text-align: center; }
 
-.teclado__razer2 .kb__arriba {
-  display: none; }
-
-.contenido2 {
-  display: block; }
+.teclado__noresp .contenedor__teclado .norespimg {
+  width: 100%; }
 
 .audio__razer .parent {
   display: grid;
@@ -531,7 +528,7 @@ body {
       background-color: red;
       font-size: 40px; }
   .portada .intento__auiris {
-    display: none; }
+    width: 100%; }
   .nav__item--oculto {
     display: block; } }
 

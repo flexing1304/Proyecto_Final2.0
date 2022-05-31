@@ -58,17 +58,20 @@ body{
         
     }
 }
-
-
-
-.teclado__razer2{
-    .kb__arriba{
-        display: none;
+.teclado__noresp{
+    .contenedor__teclado{
+        .norespimg{
+            width:100%;
+            
+            
+        }
     }
 }
-.contenido2{
-    display: block;
-}
+
+
+
+
+
 .audio__razer{
     .parent {
         display: grid;
