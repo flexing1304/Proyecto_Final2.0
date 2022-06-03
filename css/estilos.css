@@ -447,7 +447,7 @@ body {
     flex-direction: column; }
 
 .portada .no__resposive {
-  display: none; }
+  color: black; }
 
 .portada .hamerhead {
   color: white;
@@ -527,10 +527,14 @@ body {
     .volver__arriba__responsive .volver {
       background-color: red;
       font-size: 40px; }
-  .portada .intento__auiris {
-    width: 100%; }
   .nav__item--oculto {
-    display: block; } }
+    display: block; }
+  .portada .intento__auiris {
+    display: none; }
+  .portada .no__resposive {
+    display: flex;
+    color: green;
+    font-size: 30px; } }
 
 .formulario .form {
   display: flex;
@@ -615,6 +619,8 @@ body {
     .mapas .izquierda__map {
       width: 100%; }
     .mapas .info_hora, .mapas .izquierda__map .contacto__maps, .mapas .izquierda__map .ubicacion__maps {
+      width: 100%; }
+    .mapas .iframe1 {
       width: 100%; } }
 
 * {
