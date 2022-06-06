@@ -1,59 +1,59 @@
 .mapas{
-    display: flex;
-    flex-direction: row;
-    padding-top: 3px;
-    justify-content: center;
-    align-items: center;
-
-    .izquierda__map{
-        display: flex;
-        flex-direction: column;
+    padding-bottom: 20px;
+    display: flex{
+        flex-direction: row;
+    };
+    .mapa__iframe{
         width: 50%;
-        padding-left: 200px;
-        .info_hora{
-            display: flex;
-            justify-content: center;
-        }
-        .contacto__maps{
-            @extend .info_hora;
-            padding-top: 40px;
-            .material-symbols-outlined{
-               padding-right: 20px;
-            }
-            
-        }
-        .ubicacion__maps{
-            padding-top: 20px;
-            @extend .info_hora;
-
-        }
-        .material-symbols-outlined{
+    }
+.info__tienda{
+    width: 50%;
+    
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+    .titulos__mapas{
+        .nombre__local{
+            font-size: 60px;
             color: white;
-            font-size: 40px;
+            align-content: center;
         }
     }
+    .fa-solid{
+        color: rgb(255, 238, 238);
+        padding: 10px;
+
+    }
 }
-.sucursales__title{
-    padding-top: 30px;
-    padding-bottom: 30px;
+
 }
+
+
+
 
 @media screen and (max-width:600px){
     .mapas{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        .izquierda__map{
-            width: 100%;
+        .mapa__iframe{
+            width: 99%;
         }
-        .info_hora{
+        .info__tienda{
             width: 100%;
-        }
-        .iframe1{
-            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .titulos__mapas{
+                width: 100%;
+                .nombre__local{
+                    font-size: 50px;
+                }
+            }
         }
     }
-
-
-
+    .volver{
+        display: none;
+    }
 }
